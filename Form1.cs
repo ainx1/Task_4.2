@@ -6,7 +6,6 @@ namespace WinFormsApp1
         {
             InitializeComponent();
 
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -27,7 +26,7 @@ namespace WinFormsApp1
                 var result = Logic.CountSameNeighborLetters(input);
 
 
-                MessageBox.Show("Количество одинаковых соседних букв: " + result);
+                MessageBox.Show($"Количество одинаковых соседних букв: {result}");
             }
             catch (FormatException)
             {

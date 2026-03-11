@@ -42,11 +42,11 @@
             // 
             // ResultButton
             // 
-            ResultButton.Location = new Point(356, 78);
+            ResultButton.Location = new Point(345, 78);
             ResultButton.Name = "ResultButton";
-            ResultButton.Size = new Size(67, 37);
+            ResultButton.Size = new Size(87, 37);
             ResultButton.TabIndex = 1;
-            ResultButton.Text = "Result";
+            ResultButton.Text = "Результат";
             ResultButton.UseVisualStyleBackColor = true;
             ResultButton.Click += ResultButton_Click;
             // 
@@ -63,14 +63,14 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(462, 186);
+            ClientSize = new Size(462, 156);
             Controls.Add(TaskText);
             Controls.Add(ResultButton);
             Controls.Add(InputText);
             MaximumSize = new Size(478, 225);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Task 4.2";
+            Text = "Задание 4.2";
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
