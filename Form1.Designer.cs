@@ -37,7 +37,7 @@
             // 
             InputText.Location = new Point(32, 83);
             InputText.Name = "InputText";
-            InputText.Size = new Size(280, 27);
+            InputText.Size = new Size(290, 27);
             InputText.TabIndex = 0;
             // 
             // ResultButton
@@ -63,12 +63,15 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(465, 186);
+            ClientSize = new Size(462, 186);
             Controls.Add(TaskText);
             Controls.Add(ResultButton);
             Controls.Add(InputText);
+            MaximumSize = new Size(478, 225);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Task 4.2";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
